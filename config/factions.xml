@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<factions>
+	<faction name="Elves">
+		<unit name="ElveArcher" cost="70">
+			<picture img="elve_archer.png"/>
+			<attributes hp="30" ap="7">
+				<weapon name="Dagger" dmg="3" cost="3" distmax="1" distmin="1"/>
+				<weapon name="Longbow" dmg="8" cost="4" distmax="7" distmin="3"/>
+			</attributes>
+		</unit>
+		<unit name="ElveFighter" cost="60">
+			<picture img="elve_fighter.png"/>
+			<attributes hp="60" ap="5">
+				<weapon name="2Swordes" dmg="10" cost="3" distmax="1" distmin="1"/>
+			</attributes>
+		</unit>
+		<unit name="ElveHunter" cost="55">
+			<picture img="elve_hunter.png"/>
+			<attributes hp="45" ap="6">
+				<weapon name="Sword" dmg="6" cost="3" distmax="1" distmin="1"/>
+				<weapon name="Shortbow" dmg="4" cost="4" distmax="5" distmin="2"/>
+			</attributes>
+		</unit>
+	</faction>
+</factions>

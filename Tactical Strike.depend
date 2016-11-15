@@ -1,0 +1,397 @@
+# depslib dependency file v1.0
+1173110621 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\module.cc
+	"module.h"
+
+1173983226 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\module.h
+	<string>
+	"modulemanager.h"
+
+1173112963 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\modulemanager.h
+	<string>
+	<map>
+	"module.h"
+
+1172618200 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\point.cc
+	"point.h"
+
+1173110470 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\point.h
+
+1172618349 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\rect.cc
+	"rect.h"
+
+1173110470 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\rect.h
+	"point.h"
+
+1173968153 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1173968153 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1173968153 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1173968153 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1173968153 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1173968153 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1172161506 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\color.cc
+	"color.h"
+
+1173110470 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\common\color.h
+
+1172417576 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\eventmanager.cc
+	"eventmanager.h"
+
+1178810173 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\eventmanager.h
+	<string>
+	<list>
+	<SDL/SDL.h>
+	"eventlistener.h"
+
+1173110470 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\eventlistener.h
+	"eventmanager.h"
+	<string>
+
+1172417576 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\fpscontrol.cc
+	"fpscontrol.h"
+
+1173968497 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\fpscontrol.h
+	<SDL/SDL.h>
+
+1173112457 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\modulemanager.cc
+	"modulemanager.h"
+
+1172618391 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\tools\geotosdlrect.cc
+	"geotosdlrect.h"
+
+1173968508 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\engine\tools\geotosdlrect.h
+	<SDL/SDL.h>
+	"../../common/rect.h"
+
+1174135227 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\layer.cc
+	"layer.h"
+
+1173996191 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\layer.h
+	<vector>
+	"../common/point.h"
+
+1174135535 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\map.cc
+	"map.h"
+
+1177021829 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\map.h
+	"../common/point.h"
+	<guichan.hpp>
+	"layer.h"
+	"tileset.h"
+
+1174137832 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\tileset.h
+	<string>
+	<vector>
+	<guichan.hpp>
+
+1178813430 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\resourcemanager.cc
+	"resourcemanager.h"
+
+1178813398 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\resourcemanager.h
+	"../engine/modulemanager.h"
+	"../engine/fpscontrol.h"
+	"faction.h"
+	"tileset.h"
+	"../common/tinyxml/tinyxml.h"
+	<vector>
+	<string>
+
+1173134018 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\faction.h
+	<string>
+	<vector>
+	"unit.h"
+
+1173133294 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\unit.h
+	<vector>
+	<string>
+	"weapon.h"
+
+1173133420 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\weapon.h
+	<string>
+
+1178813383 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\test.cc
+	"resourcemanager.h"
+
+1174132625 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\tileset.cc
+	"tileset.h"
+
+1173968657 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\video\videomanager.cc
+	"videomanager.h"
+
+1173114701 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\video\videomanager.h
+	"videomodule.h"
+	"../../engine/module.h"
+	<list>
+	<guichan.hpp>
+	<string>
+
+1173113374 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\video\videomodule.h
+	"../../common/rect.h"
+	<guichan.hpp>
+
+1173968665 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\ts\video\videomodule.cc
+	"videomodule.h"
+
+1176665636 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\unix.c
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<unistd.h>
+	<string.h>
+	<errno.h>
+	<time.h>
+	"enet/enet.h"
+	<fcntl.h>
+	<sys/poll.h>
+
+1178811215 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\callbacks.c
+	"enet.h"
+
+1178811231 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\enet.h
+	<stdlib.h>
+	"win32.h"
+	"unix.h"
+	"types.h"
+	"protocol.h"
+	"list.h"
+	"callbacks.h"
+
+1142244476 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\win32.h
+	<stdlib.h>
+	<winsock2.h>
+
+1141714574 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\unix.h
+	<stdlib.h>
+	<sys/types.h>
+	<netinet/in.h>
+
+1141714574 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\types.h
+
+1178811235 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\protocol.h
+	"types.h"
+
+1141714574 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\list.h
+	<stdlib.h>
+
+1141714574 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\callbacks.h
+	<stdlib.h>
+
+1178811240 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\host.c
+	<string.h>
+	"enet.h"
+
+1178811245 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\list.c
+	"list.h"
+
+1178811250 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\packet.c
+	<string.h>
+	"enet.h"
+
+1178811254 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\peer.c
+	<string.h>
+	"enet.h"
+
+1178811264 source:c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\protocol.c
+	<stdio.h>
+	<string.h>
+	"utility.h"
+	"time.h"
+	"enet.h"
+
+1141714574 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\utility.h
+
+1141714574 c:\dokumente und einstellungen\leonard\desktop\tactical strike\src\enet\time.h
+
+1179853885 source:c:\users\leona\desktop\savannah\tactical strike\src\engine\eventmanager.cc
+	"eventmanager.h"
+
+1479167828 c:\users\leona\desktop\savannah\tactical strike\src\engine\eventmanager.h
+	<string>
+	<list>
+	<SDL2/SDL.h>
+	"eventlistener.h"
+
+1179853885 c:\users\leona\desktop\savannah\tactical strike\src\engine\eventlistener.h
+	"eventmanager.h"
+	<string>
+
+1179853885 source:c:\users\leona\desktop\savannah\tactical strike\src\engine\fpscontrol.cc
+	"fpscontrol.h"
+
+1479168112 c:\users\leona\desktop\savannah\tactical strike\src\engine\fpscontrol.h
+	<stdio.h>
+	<stdlib.h>
+	<SDL2/SDL.h>
+
+1479170014 source:c:\users\leona\desktop\savannah\tactical strike\src\engine\invasion.cc
+	"invasion.h"
+
+1479169801 c:\users\leona\desktop\savannah\tactical strike\src\engine\invasion.h
+	"eventlistener.h"
+	"fpscontrol.h"
+	"module.h"
+	"modulemanager.h"
+	"eventlistener.h"
+	"eventmanager.h"
+	"videomanager.h"
+
+1179853885 c:\users\leona\desktop\savannah\tactical strike\src\engine\module.h
+	<string>
+	"modulemanager.h"
+
+1179853886 c:\users\leona\desktop\savannah\tactical strike\src\engine\modulemanager.h
+	<string>
+	<map>
+	"module.h"
+
+1479170971 c:\users\leona\desktop\savannah\tactical strike\src\engine\videomanager.h
+	<list>
+	<guichan.hpp>
+	<string>
+
+1179853885 source:c:\users\leona\desktop\savannah\tactical strike\src\engine\module.cc
+	"module.h"
+
+1179853886 source:c:\users\leona\desktop\savannah\tactical strike\src\engine\modulemanager.cc
+	"modulemanager.h"
+
+1172158406 source:c:\users\leona\desktop\savannah\tactical strike\src\common\color.cc
+	"color.h"
+
+1172243217 c:\users\leona\desktop\savannah\tactical strike\src\common\color.h
+
+1172248263 source:c:\users\leona\desktop\savannah\tactical strike\src\common\point.cc
+	"point.h"
+
+1172248263 c:\users\leona\desktop\savannah\tactical strike\src\common\point.h
+
+1172248263 source:c:\users\leona\desktop\savannah\tactical strike\src\common\rect.cc
+	"rect.h"
+
+1172248263 c:\users\leona\desktop\savannah\tactical strike\src\common\rect.h
+	"point.h"
+
+1479170642 source:c:\users\leona\desktop\savannah\tactical strike\src\engine\tools\geotosdlrect.cc
+	"geotosdlrect.h"
+
+1479170020 c:\users\leona\desktop\savannah\tactical strike\src\engine\tools\geotosdlrect.h
+	<SDL2/SDL.h>
+	"../../common/rect.h"
+
+1479170939 source:c:\users\leona\desktop\savannah\tactical strike\src\engine\videomanager.cc
+	"videomanager.h"
+
+1479170997 source:c:\users\leona\desktop\savannah\tactical strike\src\ts\layer.cc
+	"layer.h"
+
+1179853886 c:\users\leona\desktop\savannah\tactical strike\src\ts\layer.h
+	<vector>
+	"../common/point.h"
+
+1479171115 source:c:\users\leona\desktop\savannah\tactical strike\src\ts\map.cc
+	"map.h"
+
+1179853886 c:\users\leona\desktop\savannah\tactical strike\src\ts\map.h
+	"../common/point.h"
+	<guichan.hpp>
+	"layer.h"
+	"tileset.h"
+
+1179853887 c:\users\leona\desktop\savannah\tactical strike\src\ts\tileset.h
+	<string>
+	<vector>
+	<guichan.hpp>
+
+1305426297 source:c:\users\leona\desktop\savannah\tactical strike\src\common\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1305426297 c:\users\leona\desktop\savannah\tactical strike\src\common\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1305426297 source:c:\users\leona\desktop\savannah\tactical strike\src\common\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305426297 c:\users\leona\desktop\savannah\tactical strike\src\common\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1305426297 source:c:\users\leona\desktop\savannah\tactical strike\src\common\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426297 source:c:\users\leona\desktop\savannah\tactical strike\src\common\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1179853887 source:c:\users\leona\desktop\savannah\tactical strike\src\ts\resourcemanager.cc
+	"resourcemanager.h"
+
+1179853887 c:\users\leona\desktop\savannah\tactical strike\src\ts\resourcemanager.h
+	"../engine/modulemanager.h"
+	"../engine/fpscontrol.h"
+	"faction.h"
+	"tileset.h"
+	"../common/tinyxml/tinyxml.h"
+	<vector>
+	<string>
+
+1179853886 c:\users\leona\desktop\savannah\tactical strike\src\ts\faction.h
+	<string>
+	<vector>
+	"unit.h"
+
+1179853887 c:\users\leona\desktop\savannah\tactical strike\src\ts\unit.h
+	<vector>
+	<string>
+	"weapon.h"
+
+1179853887 c:\users\leona\desktop\savannah\tactical strike\src\ts\weapon.h
+	<string>
+
+1179853887 source:c:\users\leona\desktop\savannah\tactical strike\src\ts\test.cc
+	"resourcemanager.h"
+
+1179853887 source:c:\users\leona\desktop\savannah\tactical strike\src\ts\tileset.cc
+	"tileset.h"
+
